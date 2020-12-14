@@ -21,4 +21,6 @@ public interface UserDao2 {
     })
     public User getUserById(int uid);
 
+
+
 }
