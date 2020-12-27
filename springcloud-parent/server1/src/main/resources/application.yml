@@ -1,0 +1,17 @@
+
+server:
+  port: 8762
+
+spring:
+  application:
+    name: service-hi
+  datasource:
+    username: root
+    password: root
+    jdbc-url: jdbc:mysql://192.168.10.100:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
