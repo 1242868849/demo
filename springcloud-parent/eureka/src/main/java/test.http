@@ -1,0 +1,13 @@
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+POST http://www.baidu.com
+###
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
+p
